@@ -2,7 +2,7 @@
 
 Documentation        online
 
-Resource    ../resources/Base.robot
+Resource    ../resources/Base.resource
 
 *** Test Cases ***
 Devo valiar que o Webapp está online
