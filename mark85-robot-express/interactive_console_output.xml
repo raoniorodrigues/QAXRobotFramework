@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231020 12:38:01.351" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231129 01:15:16.435" rpa="false" schemaversion="4">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\raoni\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<status status="PASS" starttime="20231020 12:38:01.370" endtime="20231020 12:38:02.977"/>
+<kw name="Get fixture">
+<var>${data}</var>
+<arg>tasks</arg>
+<arg>delete</arg>
+<msg timestamp="20231129 01:15:16.909" level="FAIL">No keyword with name 'Get fixture' found.</msg>
+<status status="FAIL" starttime="20231129 01:15:16.909" endtime="20231129 01:15:16.909"/>
 </kw>
-<status status="PASS" starttime="20231020 12:38:01.370" endtime="20231020 12:38:02.977"/>
+<kw name="Reset User from database">
+<arg>${data}[user]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.910" endtime="20231129 01:15:16.910"/>
+</kw>
+<kw name="POST user session">
+<arg>${data}[user]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.910" endtime="20231129 01:15:16.910"/>
+</kw>
+<kw name="POST a new task">
+<arg>${data}[task]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.910" endtime="20231129 01:15:16.910"/>
+</kw>
+<kw name="Submit login form">
+<arg>${data}[user]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.914" endtime="20231129 01:15:16.914"/>
+</kw>
+<kw name="User should be logged in">
+<arg>${data}[user][name]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.914" endtime="20231129 01:15:16.914"/>
+</kw>
+<kw name="Request removal">
+<arg>${data}[task][name]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.914" endtime="20231129 01:15:16.914"/>
+</kw>
+<kw name="Task should be not exist">
+<arg>${data}[task][name]</arg>
+<status status="NOT RUN" starttime="20231129 01:15:16.916" endtime="20231129 01:15:16.916"/>
+</kw>
+<status status="PASS" starttime="20231129 01:15:16.460" endtime="20231129 01:16:20.559"/>
+</kw>
+<status status="PASS" starttime="20231129 01:15:16.460" endtime="20231129 01:16:20.559"/>
 </test>
-<status status="PASS" starttime="20231020 12:38:01.352" endtime="20231020 12:38:02.978"/>
+<status status="PASS" starttime="20231129 01:15:16.441" endtime="20231129 01:16:20.559"/>
 </suite>
 <statistics>
 <total>
