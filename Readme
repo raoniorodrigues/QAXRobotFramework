@@ -1,3 +1,6 @@
+O GitHub usa uma linguagem de marcação específica chamada Markdown para formatar o conteúdo exibido nas páginas. No entanto, é possível que alguns elementos específicos ou formatações não sejam reconhecidos corretamente. Vamos ajustar o documento Markdown para garantir que ele seja renderizado corretamente no GitHub. Aqui está uma versão revisada:
+
+```markdown
 # Projeto Robot Framework
 
 ## Visão Geral
@@ -46,3 +49,4 @@ Este projeto é mais do que código e testes, é uma jornada onde a criatividade
 ## Conecte-se ao Mago
 
 Para compartilhar feitiços e histórias encantadoras, acesse meu caldeirão de conhecimento no LinkedIn: [Raoni Rodrigues](https://www.linkedin.com/in/raonirodrigues/)
+```
