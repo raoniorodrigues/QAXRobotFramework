@@ -1,0 +1,44 @@
+# Projeto Robot Framework
+
+## Visão Geral
+
+Este projeto utiliza o Robot Framework para automatizar e testar diversas funcionalidades. O Robot Framework é um framework de automação de código aberto para testes de aceitação, desenvolvimento orientado por testes de aceitação (ATDD) e automação de processos robóticos (RPA).
+
+## Requisitos
+
+Certifique-se de ter o Python instalado em sua máquina. Você pode baixar o Python em [python.org](https://www.python.org/).
+
+### Pacotes Python
+
+Instale os pacotes Python necessários usando o seguinte comando:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Lista de Pacotes Necessários
+
+- `bcrypt==4.0.1`
+- `pymongo==4.4.0`
+- `requests==2.31.0`
+- `robotframework==6.1`
+- `robotframework-browser==16.2.0`
+- `robotframework-jsonlibrary==0.5`
+- `robotframework-pabot==2.16.0`
+- `robotframework-requests==0.9.5`
+
+Estes pacotes são essenciais para o correto funcionamento do Robot Framework neste projeto.
+
+## Como Executar os Testes
+
+Para executar os testes, utilize o seguinte comando:
+
+```bash
+robot caminho/para/testes
+```
+
+Substitua `caminho/para/testes` pelo caminho real para seus arquivos ou diretório de teste.
+
+## Informações Adicionais
+
+- Para mais informações
