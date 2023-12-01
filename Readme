@@ -1,79 +1,49 @@
+# Projeto Robot Framework
 
-# Desafio QAExperience Robot Framework
+## Visão Geral
 
-  
+Este projeto é a expressão de automação e teste, onde o Robot Framework se torna o maestro da orquestra, conduzindo a harmonia entre funcionalidades e verificações. Seja para testes de aceitação, desenvolvimento orientado por testes de aceitação (ATDD) ou até mesmo para a dança graciosa da automação de processos robóticos (RPA), o Robot Framework é a estrela principal deste espetáculo.
 
-Bem-vindo ao Desafio QAExperience Robot Framework! Este é um projeto incrível para aprender e aprimorar suas habilidades de automação de testes com o Robot Framework.
+## Requisitos
 
-  
+Antes de começar, certifique-se de ter o Python instalado em sua máquina. Se ainda não o fez, pode baixar o Python em [python.org](https://www.python.org/).
 
-## Sobre o Robot Framework
+### Pacotes Python
 
-  
-
-O Robot Framework é uma estrutura de automação de testes de código aberto que combina uma sintaxe fácil de usar com uma poderosa funcionalidade. Ele permite que você crie testes automatizados para uma ampla variedade de aplicativos e sistemas, desde web até desktop e mobile.
-
-  
-
-## Setup do Projeto
-
-  
-
-### Pré-requisitos
-
-  
-
-Antes de começarmos, certifique-se de ter os seguintes itens instalados em seu sistema:
-
-  
-
-- [Python](https://www.python.org/downloads/)
-
-- [PIP](https://pip.pypa.io/en/stable/installation/)
-
-- [Robot Framework](https://robotframework.org/)
-
-  
-
-### Configurando o Ambiente Virtual (Opcional, mas altamente recomendado)
-
-  
-
-Para manter seu ambiente de desenvolvimento organizado, crie um ambiente virtual. No terminal, execute os seguintes comandos:
-
-  
+Instale os pacotes Python necessários usando a mágica linha de comando abaixo:
 
 ```bash
-
-pip  install  virtualenv
-
-virtualenv  venv
-
-source  venv/bin/activate  # No Windows, use: venv\Scripts\activate 
+pip install -r requirements.txt
 ```
 
+#### Lista de Pacotes Necessários
 
-### Instalando as Bibliotecas Necessárias
+- `bcrypt==4.0.1`
+- `pymongo==4.4.0`
+- `requests==2.31.0`
+- `robotframework==6.1`
+- `robotframework-browser==16.2.0`
+- `robotframework-jsonlibrary==0.5`
+- `robotframework-pabot==2.16.0`
+- `robotframework-requests==0.9.5`
 
-O Robot Framework pode ser estendido com várias bibliotecas e plugins. Para este projeto, precisaremos do SeleniumLibrary para automação web. Instale-o com o seguinte comando:
+Estes pacotes são os ingredientes secretos para o feitiço encantador do Robot Framework.
+
+## Como Executar os Testes
+
+Prepare-se para a mágica! Execute os testes com o comando mágico:
 
 ```bash
-`pip install robotframework-seleniumlibrary` 
+robot caminho/para/testes
 ```
-### Executando os Testes
 
-Estamos prontos para rodar nossos primeiros testes! Use o seguinte comando para iniciar a execução:
+Substitua `caminho/para/testes` pelo portal secreto para seus arquivos ou diretório de teste.
 
-```bash
-`robot tests/ 
+## Uma Pitada de Criatividade
+
+Este projeto é mais do que código e testes, é uma jornada onde a criatividade se encontra com a automação. Explore e descubra novos horizontes, pois cada linha de código é uma pincelada na tela da inovação.
+
+## Conecte-se ao Mago
+
+Para compartilhar feitiços e histórias encantadoras, acesse meu caldeirão de conhecimento no LinkedIn: [Raoni Rodrigues](https://www.linkedin.com/in/raonirodrigues/)
 ```
-## Contribuindo
-
-Se você deseja contribuir com este projeto, fique à vontade para abrir um pull request. Estamos ansiosos para ver suas ideias brilhantes!
-
-## Divirta-se Automatizando!
-
-Agora que tudo está configurado, é hora de mergulhar nos estudos do Robot Framework. Explore os testes de exemplo, experimente diferentes bibliotecas e divirta-se automatizando o mundo! 🤖🚀
-
-
-Um agradecimento especial ao Fernando Papito por sua contribuição valiosa para este projeto. Suas ideias e esforços têm sido fundamentais para o nosso progresso. Muito obrigado! 🙏
