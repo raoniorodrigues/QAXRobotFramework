@@ -12,7 +12,7 @@ Antes de começar, certifique-se de ter o Python instalado em sua máquina. Se a
 
 Instale os pacotes Python necessários usando a mágica linha de comando abaixo:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -33,7 +33,7 @@ Estes pacotes são os ingredientes secretos para o feitiço encantador do Robot 
 
 Prepare-se para a mágica! Execute os testes com o comando mágico:
 
-```bash
+```
 robot caminho/para/testes
 ```
 
@@ -46,4 +46,3 @@ Este projeto é mais do que código e testes, é uma jornada onde a criatividade
 ## Conecte-se ao Mago
 
 Para compartilhar feitiços e histórias encantadoras, acesse meu caldeirão de conhecimento no LinkedIn: [Raoni Rodrigues](https://www.linkedin.com/in/raonirodrigues/)
-```
